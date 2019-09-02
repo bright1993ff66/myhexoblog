@@ -6,7 +6,7 @@
   <link href="/myhexoblog/atom.xml" rel="self"/>
   
   <link href="https://bright1993ff66.github.io/myhexoblog/"/>
-  <updated>2019-09-02T11:28:19.098Z</updated>
+  <updated>2019-09-02T11:41:10.976Z</updated>
   <id>https://bright1993ff66.github.io/myhexoblog/</id>
   
   <author>
@@ -15,29 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://bright1993ff66.github.io/myhexoblog/2019/09/02/hello-world/"/>
-    <id>https://bright1993ff66.github.io/myhexoblog/2019/09/02/hello-world/</id>
-    <published>2019-09-02T11:28:19.098Z</published>
-    <updated>2019-09-02T11:28:19.098Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
-      <category term="hexo" scheme="https://bright1993ff66.github.io/myhexoblog/categories/hexo/"/>
-    
-    
-      <category term="hexo" scheme="https://bright1993ff66.github.io/myhexoblog/tags/hexo/"/>
-    
-  </entry>
   
   <entry>
     <title>020919_post</title>
