@@ -5,8 +5,8 @@
     
     <entry>
       <title>020919_post</title>
-      <link href="/2019/09/02/020919-post/"/>
-      <url>/2019/09/02/020919-post/</url>
+      <link href="/myhexoblog/2019/09/02/020919-post/"/>
+      <url>/myhexoblog/2019/09/02/020919-post/</url>
       
         <content type="html"><![CDATA[<p>What I have to do today</p><ol><li>Write what I have done yesterday</li><li>Find all the courses I want to listen. List the time of courses</li><li>Fix the Hexo problem</li><li>Take the optimization course</li></ol><h3 id="Something-about-the-hexo-website-management"><a href="#Something-about-the-hexo-website-management" class="headerlink" title="Something about the hexo website management"></a>Something about the hexo website management</h3><p>Insert Relevant codes. We have got two ways. We could use the Markdown commands like the following</p><figure class="hljs highlight Python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs Python"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np<br><br>np.arange(<span class="hljs-number">5</span>)<br></code></pre></td></tr></table></figure><p>Or you could also insert codes like the following:</p><figure class="hljs highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs objc">[rectangle setX: <span class="hljs-number">10</span> y: <span class="hljs-number">10</span> width: <span class="hljs-number">20</span> height: <span class="hljs-number">20</span>];<br></code></pre></td></tr></table></figure><p>A great tutorial which talks about how to manage the hexo website is given below:</p><div class="video-container"><iframe src="//www.youtube.com/embed/Kt7u5kr_P5o" frameborder="0" allowfullscreen></iframe></div>]]></content>
       
@@ -30,8 +30,8 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/2019/09/02/hello-world/"/>
-      <url>/2019/09/02/hello-world/</url>
+      <link href="/myhexoblog/2019/09/02/hello-world/"/>
+      <url>/myhexoblog/2019/09/02/hello-world/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">"My New Post"</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
       
@@ -58,8 +58,8 @@
     
     <entry>
       <title>first_page</title>
-      <link href="/first-page/index.html"/>
-      <url>/first-page/index.html</url>
+      <link href="/myhexoblog/first-page/index.html"/>
+      <url>/myhexoblog/first-page/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
