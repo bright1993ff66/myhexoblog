@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Chang Haoliang&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://bright1993ff66.github.io/"/>
+  <updated>2019-09-02T08:11:35.506Z</updated>
+  <id>http://bright1993ff66.github.io/</id>
+  
+  <author>
+    <name>Chang Haoliang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>020919_post</title>
+    <link href="http://bright1993ff66.github.io/2019/09/02/020919-post/"/>
+    <id>http://bright1993ff66.github.io/2019/09/02/020919-post/</id>
+    <published>2019-09-02T05:35:46.000Z</published>
+    <updated>2019-09-02T08:11:35.506Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;What I have to do today&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Write what I have done yesterday&lt;/li&gt;
+&lt;li&gt;Find all the courses I want to listen. List the time of co
+      
+    
+    </summary>
+    
+      <category term="Daily Update" scheme="http://bright1993ff66.github.io/categories/Daily-Update/"/>
+    
+    
+      <category term="hexo" scheme="http://bright1993ff66.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://bright1993ff66.github.io/2019/09/02/hello-world/"/>
+    <id>http://bright1993ff66.github.io/2019/09/02/hello-world/</id>
+    <published>2019-09-02T03:20:27.635Z</published>
+    <updated>2019-09-02T08:12:48.488Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://bright1993ff66.github.io/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://bright1993ff66.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
