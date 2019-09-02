@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://bright1993ff66.github.io/"/>
+  <link href="https://bright1993ff66.github.io/myhexoblog/"/>
   <updated>2019-09-02T08:11:35.506Z</updated>
-  <id>http://bright1993ff66.github.io/</id>
+  <id>https://bright1993ff66.github.io/myhexoblog/</id>
   
   <author>
     <name>Chang Haoliang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>020919_post</title>
-    <link href="http://bright1993ff66.github.io/2019/09/02/020919-post/"/>
-    <id>http://bright1993ff66.github.io/2019/09/02/020919-post/</id>
+    <link href="https://bright1993ff66.github.io/myhexoblog/2019/09/02/020919-post/"/>
+    <id>https://bright1993ff66.github.io/myhexoblog/2019/09/02/020919-post/</id>
     <published>2019-09-02T05:35:46.000Z</published>
     <updated>2019-09-02T08:11:35.506Z</updated>
     
@@ -35,17 +35,17 @@
     
     </summary>
     
-      <category term="Daily Update" scheme="http://bright1993ff66.github.io/categories/Daily-Update/"/>
+      <category term="Daily Update" scheme="https://bright1993ff66.github.io/myhexoblog/categories/Daily-Update/"/>
     
     
-      <category term="hexo" scheme="http://bright1993ff66.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="https://bright1993ff66.github.io/myhexoblog/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://bright1993ff66.github.io/2019/09/02/hello-world/"/>
-    <id>http://bright1993ff66.github.io/2019/09/02/hello-world/</id>
+    <link href="https://bright1993ff66.github.io/myhexoblog/2019/09/02/hello-world/"/>
+    <id>https://bright1993ff66.github.io/myhexoblog/2019/09/02/hello-world/</id>
     <published>2019-09-02T03:20:27.635Z</published>
     <updated>2019-09-02T08:12:48.488Z</updated>
     
@@ -58,10 +58,10 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://bright1993ff66.github.io/categories/hexo/"/>
+      <category term="hexo" scheme="https://bright1993ff66.github.io/myhexoblog/categories/hexo/"/>
     
     
-      <category term="hexo" scheme="http://bright1993ff66.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="https://bright1993ff66.github.io/myhexoblog/tags/hexo/"/>
     
   </entry>
   
