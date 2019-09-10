@@ -4,12 +4,37 @@
   
     
     <entry>
+      <title>030919-100919-post</title>
+      <link href="/myhexoblog/2019/09/10/030919-100919-post/"/>
+      <url>/myhexoblog/2019/09/10/030919-100919-post/</url>
+      
+        <content type="html"><![CDATA[<h3 id="What-I-have-done-these-days"><a href="#What-I-have-done-these-days" class="headerlink" title="What I have done these days"></a>What I have done these days</h3><ol><li><p>Based on the collected Chinese Sina Weibos, find all the Weibos posted in Haidian District, Beijing</p></li><li><p>Map all the Weibos to the map using a Python package called folium:</p><figure class="hljs highlight Python"><figcaption><span>Use folium to draw points on map</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs Python"> <span class="hljs-keyword">import</span> folium<br> <br> <span class="hljs-comment"># Use folium to do the weibo points visualization</span><br> haidian_map = folium.Map(location=[whole_dataframe_with_time_sorted[<span class="hljs-string">'latitude'</span>].mean(),<br>                                     whole_dataframe_with_time_sorted[<span class="hljs-string">'longitude'</span>].mean()], <br>   zoom_start=<span class="hljs-number">10</span>)<br><br> haidian_sampled_dataframe = whole_dataframe_with_time_sorted.sample(<span class="hljs-number">20000</span>)<br><br> <span class="hljs-keyword">for</span> row <span class="hljs-keyword">in</span> haidian_sampled_dataframe.itertuples():<br>haidian_map.add_child(folium.CircleMarker(location=[row.latitude, row.longitude], radius=<span class="hljs-number">1</span>,<br>                                                color=<span class="hljs-string">'black'</span>, alpha=<span class="hljs-number">0.5</span>))<br> <span class="hljs-comment"># Lower Left Corner Point</span><br> haidian_map.add_child(folium.Marker(location=[<span class="hljs-number">39.853152</span>, <span class="hljs-number">116.013215</span>]))<br> <span class="hljs-comment"># Upper Right Corner Point</span><br> haidian_map.add_child(folium.Marker(location=[<span class="hljs-number">40.199127</span>, <span class="hljs-number">116.418335</span>]))<br> <br></code></pre></td></tr></table></figure></li><li><p>Finish some content analysis such as Wordcloud and Topic Modelling</p></li><li><p>Explore the future research path. The following figure shows the overview of the previous works about the social media data analysis:</p><img src="/myhexoblog/2019/09/10/030919-100919-post/research_path.PNG" title="Future Research Path"></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Daily Update </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>030919_post</title>
-      <link href="/myhexoblog/2019/09/02/030919-post/"/>
-      <url>/myhexoblog/2019/09/02/030919-post/</url>
+      <link href="/myhexoblog/2019/09/03/030919-post/"/>
+      <url>/myhexoblog/2019/09/03/030919-post/</url>
       
-        <content type="html"><![CDATA[<p>What should be done today:</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="What-should-be-done-today"><a href="#What-should-be-done-today" class="headerlink" title="What should be done today:"></a>What should be done today:</h3><ol><li>Write what I have done yesterday</li><li>Extract all the training images and validation images listed in <a href="http://cocodataset.org/#download" target="_blank" rel="noopener">COCO Dataset</a></li><li>Finish the SpaCy tutorial<ul><li>The tutorial is given here <a href="https://realpython.com/natural-language-processing-spacy-python/" target="_blank" rel="noopener">Natural Language Processing With spaCy in Python</a></li></ul></li><li>Update the blog</li><li>Explore the Sina Weibo dataset - Focus on two cities Beijing and Shanghai<ul><li>List all the information embedded in the dataset(all the columns and their meanings)</li><li>Find the percentage of geocoded dataset</li><li>Count the number of unique users</li><li>Check the data size(number of tweets)</li><li>Time distribution of tweet posting time</li><li>Language distribution</li></ul></li></ol>]]></content>
       
+      
+      <categories>
+          
+          <category> Daily Update </category>
+          
+      </categories>
       
       
     </entry>
@@ -21,7 +46,7 @@
       <link href="/myhexoblog/2019/09/02/020919-post/"/>
       <url>/myhexoblog/2019/09/02/020919-post/</url>
       
-        <content type="html"><![CDATA[<p>What I have to do today</p><ol><li>Write what I have done yesterday</li><li>Find all the courses I want to listen. List the time of courses</li><li>Fix the Hexo problem</li><li>Take the optimization course</li></ol><h3 id="Something-about-the-hexo-website-management"><a href="#Something-about-the-hexo-website-management" class="headerlink" title="Something about the hexo website management"></a>Something about the hexo website management</h3><p>A great tutorial which talks about how to manage the hexo website is given below:</p><div class="video-container"><iframe src="//www.youtube.com/embed/Kt7u5kr_P5o" frameborder="0" allowfullscreen></iframe></div>]]></content>
+        <content type="html"><![CDATA[<h3 id="What-I-have-to-do-today"><a href="#What-I-have-to-do-today" class="headerlink" title="What I have to do today"></a>What I have to do today</h3><ol><li>Write what I have done yesterday</li><li>Find all the courses I want to listen. List the time of courses</li><li>Fix the Hexo problem</li><li>Take the optimization course</li></ol><h3 id="Something-about-the-hexo-website-management"><a href="#Something-about-the-hexo-website-management" class="headerlink" title="Something about the hexo website management"></a>Something about the hexo website management</h3><p>A great tutorial which talks about how to manage the hexo website is given below:</p><div class="video-container"><iframe src="//www.youtube.com/embed/Kt7u5kr_P5o" frameborder="0" allowfullscreen></iframe></div>]]></content>
       
       
       <categories>

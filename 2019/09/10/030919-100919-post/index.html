@@ -110,7 +110,7 @@
     </script>
     
     <script defer type="text/javascript" src="/myhexoblog/js/custom.js"></script>
-    <title>030919_post | Chang Haoliang's Blog</title>
+    <title>030919-100919-post | Chang Haoliang's Blog</title>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage" lang="en" data-spy="scroll" data-target=".list-group">
     
@@ -142,7 +142,7 @@
   
   <article class="article post card" itemscope itemtype="http://schema.org/Article">
     <div class="post-block">
-      <link itemprop="mainEntityOfPage" href="https://bright1993ff66.github.io/myhexoblog/myhexoblog/2019/09/02/030919-post/">
+      <link itemprop="mainEntityOfPage" href="https://bright1993ff66.github.io/myhexoblog/myhexoblog/2019/09/10/030919-100919-post/">
       <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
        <meta itemprop="name" content="Chang Haoliang">
        <meta itemprop="description" content="Better to light one candle than to curse the darkness">
@@ -153,19 +153,37 @@
       </span>
     </div>
     <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">030919_post</h1>
+      <h1 class="post-title" itemprop="name headline">030919-100919-post</h1>
       <div class="post-meta">
         
         <span class="post-date">
-          <i class="far fa-calendar-plus"></i><span><time title="post-date" itemprop="dateCreated datePublished" datetime="2019-09-02T21:12:33+08:00">2019-09-02 21:12:33</time></span>
+          <i class="far fa-calendar-plus"></i><span><time title="post-date" itemprop="dateCreated datePublished" datetime="2019-09-10T07:32:33+08:00">2019-09-10 07:32:33</time></span>
         </span>
         
+        
+        
+        <span class="post-meta-divider divider">|</span>
+        
+        <span class="post-categories">
+          
+          <i class="far fa-folder-open"></i><span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/myhexoblog/categories/Daily-Update/" itemprop="url" rel="index"><span itemprop="name">Daily Update</span></a></span>
+        </span>
         
         
       </div>
     </header>
     <main class="post-main" itemprop="articleBody">
-      <p>What should be done today:</p>
+      <h3 id="What-I-have-done-these-days"><a href="#What-I-have-done-these-days" class="headerlink" title="What I have done these days"></a>What I have done these days</h3><ol>
+<li><p>Based on the collected Chinese Sina Weibos, find all the Weibos posted in Haidian District, Beijing</p>
+</li>
+<li><p>Map all the Weibos to the map using a Python package called folium:</p>
+<figure class="hljs highlight Python"><figcaption><span>Use folium to draw points on map</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs Python"> <span class="hljs-keyword">import</span> folium<br> <br> <span class="hljs-comment"># Use folium to do the weibo points visualization</span><br> haidian_map = folium.Map(location=[whole_dataframe_with_time_sorted[<span class="hljs-string">'latitude'</span>].mean(),<br>                                     whole_dataframe_with_time_sorted[<span class="hljs-string">'longitude'</span>].mean()], <br>							   zoom_start=<span class="hljs-number">10</span>)<br><br> haidian_sampled_dataframe = whole_dataframe_with_time_sorted.sample(<span class="hljs-number">20000</span>)<br><br> <span class="hljs-keyword">for</span> row <span class="hljs-keyword">in</span> haidian_sampled_dataframe.itertuples():<br>haidian_map.add_child(folium.CircleMarker(location=[row.latitude, row.longitude], radius=<span class="hljs-number">1</span>,<br>                                                color=<span class="hljs-string">'black'</span>, alpha=<span class="hljs-number">0.5</span>))<br> <span class="hljs-comment"># Lower Left Corner Point</span><br> haidian_map.add_child(folium.Marker(location=[<span class="hljs-number">39.853152</span>, <span class="hljs-number">116.013215</span>]))<br> <span class="hljs-comment"># Upper Right Corner Point</span><br> haidian_map.add_child(folium.Marker(location=[<span class="hljs-number">40.199127</span>, <span class="hljs-number">116.418335</span>]))<br> <br></code></pre></td></tr></table></figure>
+</li>
+<li><p>Finish some content analysis such as Wordcloud and Topic Modelling</p>
+</li>
+<li><p>Explore the future research path. The following figure shows the overview of the previous works about the social media data analysis:</p>
+<img src="/myhexoblog/2019/09/10/030919-100919-post/research_path.PNG" title="Future Research Path"></li>
+</ol>
 
     </main>
     <footer class="post-footer">
@@ -177,7 +195,7 @@
   <nav class="page-nav">
     <div class="page-nav-next page-nav-item">
       
-      <a href="/myhexoblog/2019/09/02/020919-post/" rel="next" title="020919_post"><i class="fas fa-angle-left"></i><span class="nav-title">020919_post</span></a>
+      <a href="/myhexoblog/2019/09/03/030919-post/" rel="next" title="030919_post"><i class="fas fa-angle-left"></i><span class="nav-title">030919_post</span></a>
       
     </div>
     <div class="page-nav-prev page-nav-item">
@@ -222,6 +240,12 @@
     
     
     
+    
+    <hr>
+    <div class="post-toc sidebar-item" id="toc-div">
+      <div><i class="fas fa-list-ol"></i>Table of Contents</div>
+      <div class="post-toc-content"><ol class="list-group toc"><li class="toc-item toc-level-3"><a class="list-group-item toc-link" href="#What-I-have-done-these-days"><span class="toc-text">What I have done these days</span></a></li></ol></div>
+    </div>
     
     
     
